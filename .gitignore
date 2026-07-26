@@ -1,0 +1,13 @@
+# 사이트를 만드는 데 필요한 파일만 GitHub에 올라가도록 하는 설정입니다.
+# (빌더 도구 자체, 로컬 스크린샷 등 잡다한 파일은 올라가지 않아요)
+*
+
+!.gitignore
+!index.html
+!project-*.html
+!css/
+!css/style.css
+!js/
+!js/main.js
+!images/
+!images/**
